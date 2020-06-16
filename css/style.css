@@ -228,3 +228,37 @@ p{
         right: 35px;
     }
 }
+
+/*-----------------------------main---------------------------*/
+.section .section1{
+    background: url('../assets/bg3.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section .section2{
+    background: url('../assets/bg9.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.section .section3{
+    background: url('../assets/bg8.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+
