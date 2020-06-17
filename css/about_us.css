@@ -1,0 +1,340 @@
+html, body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+
+    /*      Theme colors        */
+    --text-gray: #3f4954;
+    --text-light : #686666da;
+    --bg-color: #0f0f0f;
+    --white: #ffffff;
+    --midnight: #104f55;
+
+    /* gradient color   */
+    
+}
+
+
+/* ---------------- Global Classes ---------------*/
+
+a{
+    text-decoration: none;
+    color: var(--text-gray);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;    
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h1{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2.5rem;
+}
+
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+h3{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--text-light);
+}
+
+/* ------x------- Global Classes -------x-------*/
+
+/* --------------- navbar ----------------- */
+
+.nav{
+    background: white;
+    padding: 0 2rem;
+    height: 0rem;
+    min-height: 10vh;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}
+
+.nav .nav-menu{    
+    justify-content: space-between;
+}
+
+
+.nav .nav-items{
+    display: flex;
+    margin-top: 0;
+    margin-right: 30em;
+
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    
+}
+
+.nav .nav-items .nav-link  a{
+    color: black;
+    
+}
+
+
+.nav .nav-items .nav-link:hover{
+    background-color: #188ec5;
+}
+
+.nav .nav-items .nav-link:hover a{
+    color: var(--white);
+}
+
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.7rem;
+    color: black;
+    
+
+}
+
+.nav .nav-brand span{
+    color: #1aa0df;
+    font-family: 'MuseoModerno', cursive;
+}
+
+
+.nav .toggle-collapse .toggle-icons{
+    z-index: 30;
+    color: black;
+    position: absolute;
+    cursor: pointer;
+    right: 25px;
+    top: 12px;
+    font-size: 30px;
+    margin: 5px 0;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+.nav .toggle-collapse .toggle-icons:hover {
+    color: #188ec5;
+}
+
+
+
+/* -------x------- navbar ---------x------- */
+
+/*-------overlay------------*/
+.overlay{
+    height: 0%; 
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.5s;
+    z-index: 40;
+    
+}
+
+.overlay-content{
+    position: relative;
+    top:25%;
+    width:100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Abel', sans-serif;
+    transition: 0.5s;
+    transition-property: background;
+
+}
+
+.overlay a:hover, .overlay a:focus{
+    color: #ffffff;
+    background: #188ec5;
+}
+
+.overlay .closebtn{
+    position: absolute;
+    top: 20px;
+    right:45px;
+    font-size:40px;
+}
+
+
+
+
+
+@media screen and (max-heignt: 450px){
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+/*-----------------------------main---------------------------*/
+.section .About_Us{
+    background: url('../assets/bg8.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/*------------about us-----------------*/
+
+.card{
+    position: absolute;
+    height: 550px;
+    width: 1100px;
+    margin: 90px auto;
+    background: #fff;
+    box-shadow: 7px 7px 50px 0px rgba(0,0,0,0.7);
+} 
+
+.thumbnail{
+    float: left;
+    position: absolute;
+    Right: 60px;
+    top: 70px;
+    height: 350px;
+    width: 450px;
+    margin: 0;
+    overflow: hidden;
+}
+
+img.left {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 110%;
+    width: 110%;
+}
+
+.sub-title{
+    height: 60px;
+    width: 400px;
+    position: absolute;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    top: 115px;
+    left: 42px;
+    
+    
+
+}
+
+.sub-title span{
+    color: #1aa0df;
+}
+.right .separator {
+    position: absolute;
+    margin-top: 0px;
+    font-size: 17px;
+    color: var(--bg-color);
+    margin-left: 40px;
+    height: 100px;
+    width: 400px;
+    text-align: justify;
+    top: 180px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+
+
+
+.card h5 {
+    position: absolute;
+    float: left;
+    left: 42px;
+    bottom: 0px;
+    top: 37px;
+    height: 30px;
+    width :150px;
+    font-size: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    color:#464d53;
+    border-left: solid #3f4954;
+    padding-left: 10px;
+    
+
+}
+
+.card .title {
+    position: absolute;
+    font-size: 80px;
+    padding: 1rem 0;
+    display: block;
+    font-family: 'MuseoModerno', cursive;
+
+    color: black;
+    float: right;
+    height: 10px;
+    
+    top:380px;
+    right: 70px;
+    
+
+}
+
+.card .title span{
+    color: #1aa0df;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.card ul{
+    position: absolute;
+    display: flex;
+    font-size: 25px;
+    height: 20px;
+    width: 40px;
+    bottom: 20px;
+    
+    
+}
+.card ul li{
+    padding: 0.6rem;
+    transition: 0.5s;
+    transition-property: color;
+}
+
+.card ul a:hover{
+    color: #1aa0df;
+
+}

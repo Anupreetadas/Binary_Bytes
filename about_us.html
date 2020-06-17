@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary_Bytes</title>
+    <!----------------Font Styles--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+
+    <!----------Custom Styles------------->
+    <link rel="stylesheet" href="./css/about_us.css">
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#" class="text-gray">BINARY <span>BYTES</span></a>
+            </div>
+            <div class="toggle-collapse">
+                
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)"
+                    class = "closebtn"
+                    onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="./index.html">Home</a>
+                        <a href="./about_us.html">About Us</a>
+                        <a href="#">Services</a>
+                        <a href="#">Testimonial</a>
+                        <a href="#">Contact us</a>
+
+                    </div>
+                </div>
+            
+
+
+
+
+
+
+
+                <div class="toggle-icons" onclick = "openNav()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+
+                <script>
+        
+                    function openNav(){
+                        document.getElementById("myNav")
+                        .style.height="100%";
+                    }
+                   
+                    function closeNav(){
+                        document.getElementById("myNav")
+                        .style.height="0%";
+                    }
+                    
+                </script>
+
+
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Services</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Testimaonial</a>
+                    </>
+                    <li class="nav-link">
+                        <a href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        
+        </div>
+    </nav>
+
+    <div class="section">
+        <div class="About_Us">
+            <div class="card">
+                <div class="thumbnail">
+                    <img src="./assets/tmb1.png" alt="" class="left">
+                </div>
+                <h5>ABOUT US</h5>
+                <div class="title">
+                    Binary <span>Bytes</span>
+                </div>
+                <div class="right">
+                    <div class="sub-title">
+                        WE ARE <span>CREATIVE</span>
+                    </div>
+                    <div class="separator">
+                       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta dignissimos eos velit id. Aliquam earum saepe possimus nisi incidunt, quasi veritatis blanditiis harum ipsam repellendus sed minima perspiciatis animi ea doloribus corrupti eveniet illum placeat inventore. Suscipit quos, aspernatur et velit qui libero corrupti ab, ducimus necessitatibus molestiae repellendus alias, similique deserunt est temporibus sit porro unde enim perferendis accusamus quaerat. Mollitia, quas nemo. Culpa, quod at, delectus possimus vero, omnis quaerat molestiae soluta quia ipsa earum totam eum!
+                    </div>
+                </div>
+                
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+
+    
+</body>
+</html>
