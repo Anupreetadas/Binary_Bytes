@@ -201,8 +201,8 @@ p{
     position: fixed;
     top:0;
     left:0;
-    background-color: white;
-    background-color: white;
+    background: url("../assets/bg13.jpg") no-repeat;
+    background-size: cover;
     overflow-y: hidden;
     transition: 0.5s;
     z-index: 40;
@@ -916,12 +916,413 @@ p{
 .how-to .button:hover a{
     color:#3f4954;
 }
-  
+
+
+
+/*----------------------------Services----------------------------*/
+.section .section2{
+    
+    height: 100vh;
+    background-color: #eeecec;
+}
+
+.section .section2 .services {
+    position: absolute;
+    height: 90vh;
+    width: 95%;
+    top: 355vh;
+    left: 3vh;
+    font-family: 'Lexend Deca', sans-serif;
+
+    
+}
 
   
+.section2 .head {
+    position: absolute;
+    font-size: 37px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: black;
+    right: 67vh;
+    
+}
 
-  
 
-  
+
+.section2 .sub{
+    position: absolute;
+    width: 550px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--text-gray);
+    text-align: center;
+    color: var(--text-gray);
+    top: 60px;
+    left: 64vh;
+    
+    
+}
+
+.section2 .box{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    top: 105px;
+    left: 82vh ;
+    border-bottom: solid #b41010 ;
+    border-width: 0.2rem;
+}
+
+.section2 .col-left{
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    left: 240px;
+    top: 180px;
+}
+
+.section2 .col-left .s1{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    
+}
+
+.section2 .col-left .s1 .title {
+    position: absolute;
+    right:120px;
+    
+}
+
+.section2 .col-left .s1 .content{
+    position: absolute;
+    right: 120px;
+    font-size: 14px;
+    text-align: right;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-left .s1 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+    
+}
+
+.section2 .col-left .s1 i{
+    color: #f3f2f2;
+    margin: 15px;
+    
+}
+
+.section2 .col-left .s1 .icon:hover{
+    background: #b41010;
+}
+
+/*--------------S2----------------*/
+.section2 .col-left .s2{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 105px ;
+}
+
+.section2 .col-left .s2 .title {
+    position: absolute;
+    right:120px;
+    
+}
+
+.section2 .col-left .s2 .content{
+    position: absolute;
+    right: 120px;
+    font-size: 14px;
+    text-align: right;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-left .s2 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-left .s2 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-left .s2 .icon:hover{
+    background: #b41010;
+}
+
+
+/*--------------S3----------------*/
+.section2 .col-left .s3{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 210px ;
+}
+
+.section2 .col-left .s3 .title {
+    position: absolute;
+    right:120px;
+    
+}
+
+.section2 .col-left .s3 .content{
+    position: absolute;
+    right: 120px;
+    font-size: 14px;
+    text-align: right;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-left .s3 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-left .s3 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-left .s3 .icon:hover{
+    background: #b41010;
+}
+
+
+/*--------------S4----------------*/
+.section2 .col-left .s4{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 315px ;
+}
+
+.section2 .col-left .s4 .title {
+    position: absolute;
+    right:120px;
+    
+}
+
+.section2 .col-left .s4 .content{
+    position: absolute;
+    right: 120px;
+    font-size: 14px;
+    text-align: right;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-left .s4 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    right: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-left .s4 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-left .s4 .icon:hover{
+    background: #b41010;
+}
+
+/*--------------------right - side ----------------*/
+
+.section2 .col-right{
+    position: absolute;
+    width: 490px;
+    height: 490px;
+    right: 200px;
+    top: 180px;
+}
+
+.section2 .col-right .s1{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    
+}
+
+.section2 .col-right .s1 .title {
+    position: absolute;
+    left:120px;
+    
+}
+
+.section2 .col-right .s1 .content{
+    position: absolute;
+    left: 120px;
+    font-size: 14px;
+    text-align: left;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-right .s1 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-right .s1 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-right .s1 .icon:hover{
+    background: #b41010;
+}
+
+/*-----------s2-----------*/
+.section2 .col-right .s2{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 105px;
+    
+}
+
+.section2 .col-right .s2 .title {
+    position: absolute;
+    left:120px;
+    
+}
+
+.section2 .col-right .s2 .content{
+    position: absolute;
+    left: 120px;
+    font-size: 14px;
+    text-align: left;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-right .s2 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-right .s2 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-right .s2 .icon:hover{
+    background: #b41010;
+}
+
+
+/*-----------s3-----------*/
+.section2 .col-right .s3{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 210px;
+    
+}
+
+.section2 .col-right .s3 .title {
+    position: absolute;
+    left:120px;
+    
+}
+
+.section2 .col-right .s3 .content{
+    position: absolute;
+    left: 120px;
+    font-size: 14px;
+    text-align: left;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-right .s3 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-right .s3 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-right .s3 .icon:hover{
+    background: #b41010;
+}
+
+/*-----------s4-----------*/
+.section2 .col-right .s4{
+    position: absolute;
+    width: 490px;
+    height:100px ;
+    top: 315px;
+    
+}
+
+.section2 .col-right .s4 .title {
+    position: absolute;
+    left:120px;
+    
+}
+
+.section2 .col-right .s4 .content{
+    position: absolute;
+    left: 120px;
+    font-size: 14px;
+    text-align: left;
+    top: 26px;
+    color: #25282c;
+}
+
+.section2 .col-right .s4 .icon {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    left: 0;
+    font-size: 40px;
+    background-color: #1397d4;
+}
+
+.section2 .col-right .s4 i{
+    color: #f3f2f2;
+    margin: 15px;
+}
+
+.section2 .col-right .s4 .icon:hover{
+    background: #b41010;
+}
 
 
