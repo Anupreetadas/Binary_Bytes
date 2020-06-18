@@ -13,15 +13,20 @@
 
     <!----------Custom Styles------------->
     <link rel="stylesheet" href="./css/style.css">
+
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    
 </head>
 <body>
+
 
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <nav class="nav">
         <div class="nav-menu flex-row">
             <div class="nav-brand">
-                <a href="#" class="text-gray">BINARY <span>BYTES</span></a>
+                <a href="#" class="text-gray" data-aos="fade-down" >BINARY <span>BYTES</span></a>
             </div>
             <div class="toggle-collapse">
                 
@@ -39,13 +44,6 @@
                     </div>
                 </div>
             
-
-
-
-
-
-
-
                 <div class="toggle-icons" onclick = "openNav()">
                     <i class="fas fa-bars"></i>
                 </div>
@@ -93,7 +91,7 @@
     <!-- ------------x---------------  Navigation --------------------------x------------------- -->
 
     <section class="site-title">
-        <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+        <div class="site-background" data-aos="">
             <h1>Your one-point Destination to</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ea quidem a error, in nesciunt ab. Blanditiis voluptas recusandae voluptatum sapiente nobis itaque officia tempora atque, fugiat soluta ex non, accusantium ea ut alias, sint obcaecati distinctio quisquam perspiciatis quaerat doloribus maiores necessitatibus. Nam, facilis.</p>
             
@@ -105,9 +103,75 @@
 
     <!-------------------Main--------------------------->
     <div class="section">
+        <!----------------------------------------------Engage Us--------------------------------->
+        <div class="section0">
+            <div class="card">
+                <div class="card-box">
+                    <div class="thumbnail" data-aos="fade-up">
+                        <img src="./assets/logo.jpg" alt="" class="right" >
+                    </div>
+                    <div class="head" data-aos="fade-right">
+                        <div class="head1">ENGAGE</div>
+                        <div class="head2">US</div>
+
+                    </div>
+                    <div class="subhead" data-aos="fade-right">
+                        OUR STORY
+
+                    </div>
+
+                    <div class="content" data-aos="fade-up">
+                        <i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, quaerat dicta nesciunt consectetur ut officiis iusto dolore labore fuga, expedita ex! Ipsum amet doloribus nulla deleniti debitis, totam fugit voluptas?</i>
+                    </div>
+                    <div class="content2" data-aos="fade-up">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque nihil eaque rerum fugiat hic cupiditate ut iusto saepe voluptatibus veritatis. Voluptate suscipit exercitationem quod labore quae corporis perspiciatis, ad, sint quas eligendi beatae odio cum optio provident, veniam quisquam iusto!
+                    </div>
+                    <div class="content3" data-aos="fade-up">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptate omnis, veritatis velit tempore dolor iusto illum aliquid ipsam ex?
+                    </div>
+
+                    <div class="service" data-aos="fade-up">
+                        <div class="title">
+                            WHAT WE DO?
+                        </div>
+                        <ul class = "list1">
+                            <li>HARDWARE</li>
+                            <li><a href="#">Internet of Things</a></li>
+                            <li><a href="#">Robotics Solution</a></li>
+                            <li><a href="#">Home Automation</a></li>
+                            <li><a href="#">Internet of Things</a></li>
+
+                        </ul>
+                        <ul class="list2">
+                            <li>SOFTWARE</li>
+                            <li><a href="#">Web Development</a></li>
+                            <li><a href="#">Software Development</a></li>
+                            <li><a href="#">Android App Development</a></li>
+                            <li><a href="#">Machine Learning</a></li>
+
+                        </ul>
+
+                    </div>
+
+                    <div class="contact" data-aos="fade-up">
+                        <div class="head1">Don't see what you're looking for?</div>
+                        
+                    </div>
+                    <div class="contact-us" data-aos="fade-up">
+                        <a href="#">CONTACT US</a>
+                    </div>
+
+                    
+                   
+                </div>
+            </div>
+        </div>
+
+
+        <!---------------------why us---------------------------->
         <div class="section1">
             <div class="why-us">
-                <div class="card transition">
+                <div class="card transition" data-aos = "fade-up" data-aos-delay="300">
                     <div class="head transition">WHY <span>US?</span></div>
                     <div class="sub1 transition">#commitment</div>
                     <div class="sub2 transition">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi modi praesentium officiis! Non debitis aperiam in soluta ipsa optio. Dolorem dignissimos itaque magnam! Illum in cum dolore voluptas qui.</div>
@@ -118,7 +182,7 @@
             </div>
 
             <div class="where-to">
-                <div class="card transition">
+                <div class="card transition" data-aos="fade-up" data-aos-delay="500" >
                     <div class="head transition">WHERE <span>TO?</span></div>
                     <div class="sub1 transition">#commitment</div>
                     <div class="sub2 transition">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi modi praesentium officiis! Non debitis aperiam in soluta ipsa optio. Dolorem dignissimos itaque magnam! Illum in cum dolore voluptas qui.</div>
@@ -129,7 +193,7 @@
             </div>
 
             <div class="how-to">
-                <div class="card transition">
+                <div class="card transition" data-aos="fade-up" data-aos-delay="600">
                     <div class="head transition">HOW <span>TO?</span></div>
                     <div class="sub1 transition">#commitment</div>
                     <div class="sub2 transition">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio excepturi modi praesentium officiis! Non debitis aperiam in soluta ipsa optio. Dolorem dignissimos itaque magnam! Illum in cum dolore voluptas qui.</div>
@@ -140,6 +204,14 @@
             </div>
         </div>
     </div>
+
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    
+    
 
 
 </body>

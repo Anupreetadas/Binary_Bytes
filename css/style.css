@@ -67,6 +67,7 @@ p{
     min-height: 10vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
+    
 }
 
 .nav .nav-menu{    
@@ -256,11 +257,252 @@ p{
 }
 
 /*-----------------------------main---------------------------*/
+/*-----------------------------ENGAGE US-----------------------*/
+.section .section0{
+    top: 130v;
+    height: 120vh;
+}
+
+
+
+.section0 .card-box {
+    position: absolute;
+    height: 750px;
+    width: 1000px;
+    
+    left: 250px;
+    top: 135vh;
+    border-top: solid #2e3338;
+    border-width: thick;
+    margin-bottom: 30px;
+    border-bottom: solid #2e3338;
+    border-width: thick;
+    margin-right: 10px;
+
+}
+
+.section0 .head{
+    position: absolute;
+    height: 130px;
+    width: 160px;
+    border-left: solid #2e3338;
+    text-align: left;
+    left: 90px;
+    bottom: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.section0 .head .head1{
+    position: absolute;
+    right: 15px;
+    font-size: 30px;
+    color: #0e0f0f;
+    
+
+
+}
+
+.section0 .head2{
+    position: absolute;
+    font-size: 100px;
+    right: 14px;
+    top: 20px;
+    color: #1aa0df;
+}
+
+.section0 .subhead{
+    position: absolute;
+    width: 130px;
+    height: 110px;
+    font-size: 40px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #2e3338;
+    left: 90px;
+    top: 20px;
+    font-style: bold;
+    border-bottom: solid #2e3338;
+    border-width: 6px;
+
+}
+
+.section0 .content{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: justify;
+    color: #0f0f0f;
+    left: 90px;
+    top: 160px;
+    line-height: 1.2rem;
+    
+}
+
+.section0 .content2{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: justify;
+    color: #0f0f0f;
+    left: 90px;
+    top: 290px;
+    line-height: 1.2rem;
+    
+}
+
+.section0 .content3{
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    font-size: 16px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: justify;
+    color: gray;
+    left: 90px;
+    top: 460px;
+    line-height: 1.2rem;
+    
+}
+
+.section0 .service{
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    font-family: 'Lexend Deca', sans-serif;
+    bottom: 90px;
+    right: 0px;
+
+}
+
+.section0 .service .title{
+    position: Absolute;
+    height: 43px;
+    width: 300px;
+    font-size: 35px;
+    border-bottom: solid thick #2e3338;
+    left: 10px;
+    color: #2e3338;
+    top: 10px;
+    
+}
+
+.section0 .service .list1{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    left: -30px;
+    top: 52px ;
+    line-height: 1.7rem;
+
+
+}
+
+.section0 .service .list1 li{
+    margin-top: 5px;
+}
+
+.section0 .service .list2{
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    right:0px;
+    top: 52px;
+    line-height: 1.7rem;
+}
+
+.section0 .service .list2 li{
+    margin-top: 5px;
+}
+
+.section0 .service ul::first-line {
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+
+.section0 .service a:hover {
+    color: #0e0f0f;
+}
+
+.section0 .contact{
+    position: absolute;
+    width: 490px;
+    font-family: 'Lexend Deca', sans-serif;
+    
+    bottom: 40px;
+    right: 0px;
+
+}
+
+.section0 .contact-us {
+    position: absolute;
+    height: 25px;
+    width: 128px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 19px;
+    bottom: 40px;
+    right: 60px;
+    border-bottom: solid  rgb(66, 61, 61);
+
+}
+
+.section0 .contact-us a:hover{
+    color: black;
+    
+}
+
+
+
+
+
+
+.section0 .thumbnail{
+    float: left;
+    position: absolute;
+    Right: 120px;
+    top: 5px;
+    height: 370px;
+    width: 370px;
+    margin: 0;
+    overflow: hidden;
+}
+
+.section0 img.right {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 90%;
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .section .section1{
     background: url('../assets/bg12.png') no-repeat;
     background-size: cover;
     background-position: center;
-    top: 110vh;
+    top: 120vh;
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -281,10 +523,10 @@ p{
     width: 350px;
     position: absolute;
     margin: auto;
-    top: 250vh;
+    top: 490vh;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 80px;
+    
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     overflow: hidden;
 
@@ -299,7 +541,7 @@ p{
 .why-us .card_circle {
     height: 500px;
     width: 500px;
-    background-color: #0f0f0f;
+    background-color: black;
     background-size: cover;
     position: absolute;
     border-radius: 50%;
@@ -416,9 +658,10 @@ p{
     width: 350px;
     position: absolute;
     margin: auto;
-    top: 250vh;
+    top: 490vh;
     bottom: 0;
-    left: 80px;
+    left: 0px;
+    right: 0px;
     
     box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
     overflow: hidden;
@@ -434,7 +677,7 @@ p{
 .where-to .card_circle {
     height: 500px;
     width: 500px;
-    background-color: #0f0f0f;
+    background-color: #680505;
     background-size: cover;
     position: absolute;
     border-radius: 50%;
@@ -552,7 +795,7 @@ p{
     width: 350px;
     position: absolute;
     margin: auto;
-    top: 250vh;
+    top: 490vh;
     bottom: 0;
     right: 80px;
     
@@ -570,7 +813,7 @@ p{
 .how-to .card_circle {
     height: 500px;
     width: 500px;
-    background-color: #0f0f0f;
+    background-color: #0c51a0;
     background-size: cover;
     position: absolute;
     border-radius: 50%;
