@@ -143,12 +143,20 @@ p{
 
 /* -------x------- navbar ---------x------- */
 
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+
+}
+
 /* --------------- Site title ---------------- */
 .site-title{
     
     background: url('../assets/bg7.png') no-repeat;
     background-size: cover;
-    background-position: center;
+    
+    background-position: center center;
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -246,17 +254,11 @@ p{
 
 
 
-@media screen and (max-heignt: 450px){
-    .overlay {overflow-y: auto;}
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
-    }
-}
+
 
 /*-----------------------------main---------------------------*/
+
+
 /*-----------------------------ENGAGE US-----------------------*/
 .section .section0{
     top: 130v;
@@ -1324,5 +1326,135 @@ p{
 .section2 .col-right .s4 .icon:hover{
     background: #b41010;
 }
+
+
+/*------------------------------Section 3---------------------------*/
+.section .section3{
+    height: 60vh;
+}
+
+.section3 .wrapper{
+    position: absolute;
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    font-family: 'Lexend Deca', sans-serif;
+
+    
+    left: 70px;
+    background-color: #fff;
+}
+
+.section3 .section-padding{
+    padding: 40px 0;
+}
+
+.testimonial-carousel{
+    margin: 10% auto 0;
+}
+
+
+
+.section3 .img-area {
+    width: 130px;
+    height: 130px;
+    display: block;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+ .section3 .single-testi{
+     
+     width: 200px;
+     height: 300px;
+     margin: 30px;
+     background: #fff;
+     padding: 15%;
+     text-align: center;
+     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.4);
+     border-radius: 100px 0 100px 0;
+ }
+
+ .section3 .h1{
+     margin-top: 15px;
+     font-size: 25px;
+     
+     text-transform: uppercase;
+
+ }
+
+ .section3 .h2{
+     margin-top: 3px ;
+     color: #1397d4;
+ }
+
+ .section3 .rating{
+     font-size: 17px;
+     margin-top: 5px;
+     right: 30px;
+     
+     height: 35px;
+     border-bottom: solid black;
+
+     
+ }
+
+ .section3 .content{
+    margin-top: 10px;
+    font-size: 14px;
+ }
+ .section3 .quote{
+     position: absolute;
+     top: 40px;
+     font-size: 80px;
+     right: 140px;
+     color: #1397d4;
+ }
+
+ .owl-dots{
+     text-align: center;
+     
+ }
+
+.section3 .owl-dot{
+    padding-bottom: 20px;
+    
+     display: inline-block;
+     height: 15px !important;
+     width: 15px !important;
+     background: #f3f2f2;
+     bottom: 30px;
+     border-radius: 50%;
+     margin: 50px 5px 0;
+    
+ }  
+
+.section3 .owl-dot.active{
+     background-color: #1aa0df !important;
+}
+
+
+
+/*--------------------------Smaller Screens---------------------------*/
+
+
+@media screen and (max-heignt: 450px){
+    .overlay {overflow-y: auto;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+
+
+
+
+
+
 
 
