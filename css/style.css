@@ -1330,13 +1330,13 @@ p{
 
 /*------------------------------Section 3---------------------------*/
 .section .section3{
-    height: 60vh;
+    height: 95vh;
 }
 
 .section3 .wrapper{
     position: absolute;
     width: 95%;
-    height: 60vh;
+    height: 95vh;
     margin: 0 auto;
     font-family: 'Lexend Deca', sans-serif;
 
@@ -1437,6 +1437,194 @@ p{
 
 
 
+
+/*-----------------------------FOOTER-----------------------------------*/
+
+.section .section4 {
+    height: 40vh;
+    margin: 0;
+    padding: 0;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    background: #111;
+    position: absolute;
+    
+}
+
+.section4 .main-content{
+    display: flex;
+}
+.section4 .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.main-content .box .title{
+    font-family: 'MuseoModerno', cursive;
+    font-size: 1.5rem;
+}
+
+.main-content .box .title span{
+    color: #1397d4;
+}
+
+.main-content .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.main-content .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+}
+
+.main-content .box .content:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+    top: -10px;
+    
+}
+
+.main-content .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #1397d4;
+    top: -10px;
+}
+
+
+.section4 .left p{
+    text-align: justify;
+}
+
+.section4 .left .content .social{
+    margin: 20px 0 0 0;
+}
+
+.section4 .left .social a{
+    padding: 0 2px;
+}
+
+.section4 .social a span{
+    height: 40px;
+    width: 40px;
+    background:#1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+    transition-property: background color;
+}
+
+.section4 .social a span:hover{
+    background: #1397d4;
+    color: white;
+}
+
+.section4 .center .content .fas {
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    transition-property: background color;
+    cursor: pointer;
+}
+
+.section4 .center .fas:hover{
+    background-color: #1397d4;
+    color: white;
+}
+
+.section4 .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+
+}
+
+.section4 .content .phone{
+    margin: 10px 0;
+}
+
+.section4 .right form .text{
+    font-size: 1.0625;
+    margin-bottom: 2px;
+    color: #656565;
+}
+
+
+.section4 .right form .msg{
+    margin-top: 10px;
+}
+
+.section4 .right form input, .right form textarea{
+    width: 100%;
+    font-size: 1.0625 rem;
+    background: #151515;
+    padding-left: 10px;
+    border: 1px solid #222222;
+}
+
+.section4 .right form input:focus, .section4 .right form textarea:focus {
+    outline-color: #3498db;
+}
+
+.section4 .right form input{
+    height: 35px;
+}
+
+.section4 .right form .btn{
+    margin-top: 10px;
+}
+
+.section4 form .btn button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #1397d4;
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+}
+
+.section4 form .btn button:hover {
+    background: #f12020;
+}
+
+
+.section4 .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+}
+.section4 center span{
+    color: #656565;
+}
+.section4 .bottom center a{
+    color: #1397d4;
+    text-decoration: none;
+}
+
+.section4 .bottom center a:hover {
+    text-decoration: underline;
+}
 /*--------------------------Smaller Screens---------------------------*/
 
 
@@ -1447,6 +1635,26 @@ p{
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .section4 {
+        top: 570vh;
+        height: 70vh;
+        background: #111;
+
+
+    }
+
+
+    
+    .main-content{
+        flex-wrap:wrap;
+        flex-direction: column;
+    }
+    .main-content .box{
+        margin: 5px;
     }
 }
 
